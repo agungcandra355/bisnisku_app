@@ -1,0 +1,19 @@
+{
+  "name": "Flutter Development",
+  "image": "ghcr.io/cirruslabs/flutter:stable",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.dart-code",
+        "Dart-Code.flutter"
+      ],
+      "settings": {
+        "dart.flutterSdkPath": "/sdks/flutter",
+        "dart.debugExternalPackageLibraries": true,
+        "dart.debugSdkLibraries": false
+      }
+    }
+  },
+  "forwardPorts": [],
+  "postCreateCommand": "flutter doctor"
+}

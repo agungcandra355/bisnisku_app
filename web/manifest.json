@@ -1,0 +1,11 @@
+{
+    "name": "bisnisku_app",
+    "short_name": "Bisnisku",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "A Flutter mobile application starter project.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false
+}
