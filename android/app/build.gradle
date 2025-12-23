@@ -45,6 +45,8 @@ android {
 
     buildTypes {
         release {
+            // TODO: Add your own signing config for production release builds.
+            // For now, using debug signing. Configure release signing before distribution.
             signingConfig signingConfigs.debug
         }
     }
